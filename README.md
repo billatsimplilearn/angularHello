@@ -1,4 +1,5 @@
 
+# Creating a Project From Scratch
 1.  From command line / terminal, go to root folder (c:\_home\simplilearn) or (~/_home/caltech)
 2.  mkdir <new project name>
 3.  cd <new project name>
