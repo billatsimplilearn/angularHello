@@ -10,7 +10,6 @@ import { Observable } from 'rxjs';
 })
 export class HeroesComponent {
   heroes : Hero [ ] = [ ] ;
-  selectedHero ?: Hero ;
   private heroService: HeroService ;
 
   /* auto wiring */
@@ -22,10 +21,6 @@ export class HeroesComponent {
 
   ngOnInit() : void {
     this.populateHeroes();
-  }
-
-  onSelect(hero : Hero) {
-    this.selectedHero = hero;
   }
 
   // ToH calls this getHeroes():
